@@ -1,0 +1,1 @@
+gunicorn "goode_grub:app"

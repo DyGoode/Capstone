@@ -1,0 +1,61 @@
+/*Nav Styles*/
+gg-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+gg-nav img {
+    width: 25%;
+    max-width: 100%;
+    margin-left: 2vw;
+}
+
+ul#horizontal-list {
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#horizontal-list li, ul#horizontal-list a {
+    display: inline;
+    text-decoration: none;
+    padding: 0.5vw;
+    color: black;
+}
+
+ul #horizontal-list a:nth-last-child(1) {
+    border: 2px solid grey;
+    border-radius: 8px;
+    margin-right: 0.2vw;
+}
+/*End Nav Styles*/
+
+
+
+
+
+/*Hero Image*/
+#recipe-image {
+    width: 95%;
+    max-width: 100%;
+}
+
+/*End Hero Image*/
+
+
+
+
+
+/*Footer Styles*/
+.footer-text-flex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vw;
+    text-align: center;
+}
+
+#footer {
+    border-top: 2px solid black;
+    margin-top: 2vh;
+}
+/*End Footer Styles*/
