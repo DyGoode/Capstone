@@ -2,7 +2,6 @@
 
 {% block content %}
 
-<!-- Flask Flashed Message to User -->
 {% with messages = get_flashed_messages(with_categories = true) %}
     {% if messages %}
         {% for cat, msg in messages %}

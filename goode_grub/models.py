@@ -65,7 +65,7 @@ class Recipe(db.Model):
         self.user_token = user_token
         
     def __repr__(self):
-        return f'The following character has been saved: {self.title}'
+        return f'The following recipe has been saved: {self.title}'
 
     def set_id(self):
         return (secrets.token_urlsafe())
